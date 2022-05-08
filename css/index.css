@@ -1,0 +1,52 @@
+body{
+    background-image: url('img/1.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:'Comic Sans MS'
+}
+.sub{
+    height: 50vh;
+    width: 1100px;
+    background-image: url('img/2.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 25vw;
+    margin-top: 25vh;
+}
+.container{
+    height: 55vh;
+    width: 100vw;
+    display: none;
+
+}
+.sub .img1 {
+    height: 150px;
+    width: 150px;
+    margin-top: 7vh;
+    float: right;
+    margin-right: 4vw;
+}
+.sub .img2 {   
+    height: 200px;
+    width: 200px;
+    margin-top: 31vh;
+    float: left;
+}
+.sticky {
+    position: fixed;
+    top:0;
+}
+.pagination {
+    display: inline-block;
+    margin-left: 42vw;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
